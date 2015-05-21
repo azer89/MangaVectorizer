@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Screentone Analyzer">
+      <UniqueIdentifier>{ccfcf0dd-760a-428d-b2fb-50f87daf5ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screentone Analyzer">
+      <UniqueIdentifier>{fc1c5929-45e9-44a3-bf00-47c542930a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LBP">
+      <UniqueIdentifier>{1a7a1894-4aa8-4d3b-8f62-a7940481a40b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LBP">
+      <UniqueIdentifier>{94ad5a29-ee7a-4d71-b064-2beb4ecc07bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Libraries">
+      <UniqueIdentifier>{96bbfe50-b2f9-4ac0-84a0-290607a55af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Libraries">
+      <UniqueIdentifier>{48c06d6d-f9d9-4ad7-887a-09813c5b33b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cartoon+Texture Filter">
+      <UniqueIdentifier>{ad155b37-6739-4665-823a-3447a5ed3686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cartoon+Texture Filter">
+      <UniqueIdentifier>{27c45542-3b6f-43e9-aa52-2a5ee9a1405c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gabor Wavelet">
+      <UniqueIdentifier>{6a069119-169c-4be3-b947-9870c341d094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gabor Wavelet">
+      <UniqueIdentifier>{12adee8d-2c53-42af-9c4a-f78b21e03ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CGAL">
+      <UniqueIdentifier>{384e586e-2d5b-4352-99ae-ee5c32f90813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CGAL">
+      <UniqueIdentifier>{a45877ef-17ab-4a4f-9e60-7c076c1288bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Clouds">
+      <UniqueIdentifier>{acad2913-4cee-47a4-807e-a7988c29d1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sorter">
+      <UniqueIdentifier>{b51ddb3c-e858-4cda-b270-84193a6e9c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sorter">
+      <UniqueIdentifier>{0247e855-85e8-4abe-a537-2a88741f2a8b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilityFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChanVese_IPOL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreentoneSegmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyQuad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveFitting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreentoneClassifier.h">
+      <Filter>Header Files\Screentone Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="DotsParamsEstimator.h">
+      <Filter>Header Files\Screentone Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreentoneData.h">
+      <Filter>Header Files\Screentone Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageThinning.h">
+      <Filter>Header Files\Screentone Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="LBP.h">
+      <Filter>Header Files\LBP</Filter>
+    </ClInclude>
+    <ClInclude Include="LBPHistogram.h">
+      <Filter>Header Files\LBP</Filter>
+    </ClInclude>
+    <ClInclude Include="Dirent.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="RunningStat.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoFLANN.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="LibCartoon.h">
+      <Filter>Header Files\Cartoon+Texture Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="CartoonTextureFilter.h">
+      <Filter>Header Files\Cartoon+Texture Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="CSSSmoothing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelsInTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveRDP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveInterpolation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GaborManjunathMa.h">
+      <Filter>Header Files\Gabor Wavelet</Filter>
+    </ClInclude>
+    <ClInclude Include="GaborMatrix.h">
+      <Filter>Header Files\Gabor Wavelet</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGALTools.h">
+      <Filter>Header Files\CGAL</Filter>
+    </ClInclude>
+    <ClInclude Include="Delaunay_mesh_face_base_info_2.h">
+      <Filter>Header Files\CGAL</Filter>
+    </ClInclude>
+    <ClInclude Include="PointInTrianglesTest.h">
+      <Filter>Header Files\CGAL</Filter>
+    </ClInclude>
+    <ClInclude Include="MyIndexedBezierCurves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyIndexedLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyIndexedTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCurveTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCloud.h">
+      <Filter>Header Files\Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCloud.h">
+      <Filter>Header Files\Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="CornerCloud.h">
+      <Filter>Header Files\Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreentoneType.h">
+      <Filter>Header Files\Screentone Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="NonRigidPointMatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KDTreeDeclarations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinesSorter.h">
+      <Filter>Header Files\Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrangementExtractor.h">
+      <Filter>Header Files\CGAL</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulator1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulator2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPolygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyIndexedPolygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLocationTest1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLocationTest2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IUI_StrokeType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GridParamsEstimator.h">
+      <Filter>Header Files\Screentone Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="StripesParamsEstimator.h">
+      <Filter>Header Files\Screentone Analyzer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilityFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChanVese_IPOL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreentoneSegmentation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveFitting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreentoneClassifier.cpp">
+      <Filter>Source Files\Screentone Analyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="DotsParamsEstimator.cpp">
+      <Filter>Source Files\Screentone Analyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageThinning.cpp">
+      <Filter>Source Files\Screentone Analyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="LBP.cpp">
+      <Filter>Source Files\LBP</Filter>
+    </ClCompile>
+    <ClCompile Include="LBPHistogram.cpp">
+      <Filter>Source Files\LBP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dirent.cpp">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="LibCartoon.cpp">
+      <Filter>Source Files\Cartoon+Texture Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="CartoonTextureFilter.cpp">
+      <Filter>Source Files\Cartoon+Texture Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="CSSSmoothing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelsInTriangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveRDP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveInterpolation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GaborMatrix.cpp">
+      <Filter>Source Files\Gabor Wavelet</Filter>
+    </ClCompile>
+    <ClCompile Include="GaborManjunathMa.cpp">
+      <Filter>Source Files\Gabor Wavelet</Filter>
+    </ClCompile>
+    <ClCompile Include="CGALTools.cpp">
+      <Filter>Source Files\CGAL</Filter>
+    </ClCompile>
+    <ClCompile Include="PointInTrianglesTest.cpp">
+      <Filter>Source Files\CGAL</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NonRigidPointMatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinesSorter.cpp">
+      <Filter>Source Files\Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangulator1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangulator2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLocationTest1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLocationTest2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GridParamsEstimator.cpp">
+      <Filter>Source Files\Screentone Analyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="StripesParamsEstimator.cpp">
+      <Filter>Source Files\Screentone Analyzer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
