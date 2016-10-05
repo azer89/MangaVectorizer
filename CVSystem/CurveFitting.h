@@ -1,6 +1,6 @@
 
 /**
- * Bezier curve fitting using least square
+ * Bezier curve fitting using least square (http_://jimherold.com/2012/04/20/least-squares-bezier-fit/)
  *
  *
  * Author: Reza Adhitya Saputra (reza.adhitya.saputra@gmail.com)
