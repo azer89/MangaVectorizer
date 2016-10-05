@@ -1,5 +1,6 @@
 
 /**
+ * http_://jimherold.com/2012/04/20/least-squares-bezier-fit/
  *
  * Reza Adhitya Saputra (reza.adhitya.saputra@gmail.com)
  * Version: 2014
